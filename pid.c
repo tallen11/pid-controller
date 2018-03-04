@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "pid.h"
 
 pid_controller_t* pid_new(float p_param, float i_param, float d_param, size_t bufferLength) {
